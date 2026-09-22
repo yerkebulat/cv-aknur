@@ -100,7 +100,7 @@ export const RESUME_DATA: ResumeData = {
   locationLink: "https://www.google.com/maps/place/Astana,+Kazakhstan",
   about:
     "Fourth-year B.Sc. Geology student at Nazarbayev University. Experienced in core logging, lithogeochemical sampling, geological mapping, and fieldwork across porphyry systems and sedimentary basins in Central Asia. Skilled in 3D geological modeling, GIS, and thin-section analysis. Presenter at the PDAC–SEG Student Minerals Colloquium 2026.",
-  avatarUrl: "",
+  avatarUrl: "/aknur-cv-photo.jpeg",
   personalWebsiteUrl: "",
   contact: {
     email: "aknur.zhakanova@nu.edu.kz",

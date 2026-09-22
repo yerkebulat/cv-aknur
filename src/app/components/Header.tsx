@@ -192,7 +192,12 @@ export function Header({ resume, labels }: HeaderProps) {
         {resume.avatarUrl ? (
           <AvatarImage
             alt={`${resume.name} ${labels.profilePicture}`}
-            src={resume.avatarUrl}
+            className="object-cover"
+            src={
+              resume.avatarUrl.startsWith("http")
+                ? resume.avatarUrl
+                : `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${resume.avatarUrl}`
+            }
           />
         ) : null}
         <AvatarFallback>{resume.initials}</AvatarFallback>
