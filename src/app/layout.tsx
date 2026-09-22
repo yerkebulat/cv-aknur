@@ -18,8 +18,11 @@ export const metadata: Metadata = {
     "Resume of Aknur Zhakanova, geology student at Nazarbayev University",
   robots: "index, follow",
   icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-icon.png",
+    icon: [
+      { url: `${basePath}/icon.png`, type: "image/png", sizes: "32x32" },
+      { url: `${basePath}/favicon.ico`, sizes: "any" },
+    ],
+    apple: `${basePath}/apple-icon.png`,
   },
 };
 
@@ -34,7 +37,6 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Language" content="en" />
         <meta name="theme-color" content="#ffffff" />
-        <link rel="apple-touch-icon" href={`${basePath}/apple-icon.png`} />
       </head>
       <body>
         {children}
