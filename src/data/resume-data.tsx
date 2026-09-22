@@ -133,6 +133,10 @@ export const RESUME_DATA: ResumeData = {
           <li>
             Validated and corrected ML-derived geospatial polygons in QGIS.
           </li>
+          <li>
+            Working with scanning electron microscopy (SEM) in both sedimentary
+            and igneous rocks.
+          </li>
         </ul>
       ),
     },
@@ -321,6 +325,10 @@ export const LOCALIZED_RESUME_DATA = {
               QGIS-те машиналық оқытумен алынған геокеңістіктік полигондарды
               тексеріп, түзеттім.
             </li>
+            <li>
+              Шөгінді және магмалық жыныстарда сканерлеуші электрондық
+              микроскопиямен (SEM) жұмыс істеп жүрмін.
+            </li>
           </ul>
         ),
       },
@@ -491,6 +499,10 @@ export const LOCALIZED_RESUME_DATA = {
             <li>
               Проверяла и исправляла в QGIS геопространственные полигоны,
               полученные методами машинного обучения.
+            </li>
+            <li>
+              Работаю со сканирующей электронной микроскопией (SEM) и в
+              осадочных, и в магматических породах.
             </li>
           </ul>
         ),
