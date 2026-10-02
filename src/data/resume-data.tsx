@@ -251,6 +251,10 @@ export const RESUME_DATA: ResumeData = {
   ],
   awards: [
     {
+      title: "Tashkent Micromine Modelling Competition",
+      award: "2nd place with the team, 2026. IDW, grade interpolation, and kriging.",
+    },
+    {
       title: "Satbayev Geological Universiade",
       award: "2nd place, 2025",
     },
@@ -430,6 +434,11 @@ export const LOCALIZED_RESUME_DATA = {
     ],
     awards: [
       {
+        title: "Ташкенттегі Micromine модельдеу байқауы",
+        award:
+          "Командамен 2-орын, 2026. IDW, құрамы бойынша интерполяция және кригинг.",
+      },
+      {
         title: "Сәтбаев геологиялық универсиадасы",
         award: "2-орын, 2025",
       },
@@ -603,6 +612,11 @@ export const LOCALIZED_RESUME_DATA = {
       "Арабский (начальный)",
     ],
     awards: [
+      {
+        title: "Конкурс моделирования Micromine в Ташкенте",
+        award:
+          "2-е место в команде, 2026. IDW, интерполяция содержаний и кригинг.",
+      },
       {
         title: "Геологическая универсиада им. Сатпаева",
         award: "2-е место, 2025",
